@@ -6,25 +6,25 @@ local config = function()
 		defaults = {
 			mappings = {
 				i = {
-					["<C-j>"] = "move_selection_next",
-					["<C-k>"] = "move_selection_previous",
+					--["<C-j>"] = "move_selection_next",
+					--["<C-k>"] = "move_selection_previous",
 				},
 			},
 		},
 		pickers = {
-			find_files = {
-				theme = "dropdown",
-				previewer = true,
-				hidden = true,
-			},
-			live_grep = {
-				theme = "dropdown",
-				previewer = true,
-			},
-			buffers = {
-				theme = "dropdown",
-				previewer = true,
-			},
+			--find_files = {
+			--	theme = "dropdown",
+			--	previewer = true,
+			--	hidden = true,
+			--},
+			--live_grep = {
+			--	theme = "dropdown",
+			--	previewer = true,
+			--},
+			--buffers = {
+			--	theme = "dropdown",
+			--	previewer = true,
+			--},
 		},
 	})
 end
